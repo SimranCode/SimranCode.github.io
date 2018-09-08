@@ -74,6 +74,12 @@ section > div.first h2 {
 }
 
 @media (min-width: 1200px) and (max-width: 1400px){
+	section > div.first {
+    width: 470px;
+}
+.second {
+    width: calc(100% - 470px);
+}
 	section > div.first h1 {
     font-size: 24px;
 }
