@@ -74,6 +74,9 @@ section > div.first h2 {
 }
 
 @media (min-width: 1200px) and (max-width: 1400px){
+	section {
+    border: 35px solid #fff;
+}
 	section > div.first {
     width: 470px;
 }
