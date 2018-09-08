@@ -28,14 +28,14 @@ section {
 }
 .second {
     text-align: center;
+    width:calc(100% - 650px);
 }
 section > div {
-    width: 65%;
     padding: 50px;
 }
 section > div.first {
     background: url(../images/delhi.png),#900000;
-    width: 35%;
+    width: 650px;
     height: 100%;
     padding-top: 32vh;
     background-repeat: no-repeat;
@@ -65,4 +65,28 @@ section > div.first h2 {
     width: 470px;
     display: block;
     margin: 30px auto 0;
+}
+
+
+
+@media(max-width: 767px){
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+	section > div.first h1 {
+    font-size: 24px;
+}
+section > div.first h2 {
+    font-size: 27px;
+    }
+    section > div.first img {
+    max-width: 220px;
+}
+.second h1 {
+    font-size: 70px;
+}
+.second img {
+    width: 420px;
+}
 }
