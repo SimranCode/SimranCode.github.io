@@ -66,3 +66,27 @@ section > div.first h2 {
     display: block;
     margin: 30px auto 0;
 }
+
+
+
+@media(max-width: 767px){
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+	section > div.first h1 {
+    font-size: 24px;
+}
+section > div.first h2 {
+    font-size: 27px;
+    }
+    section > div.first img {
+    max-width: 220px;
+}
+.second h1 {
+    font-size: 70px;
+}
+.second img {
+    width: 420px;
+}
+}
